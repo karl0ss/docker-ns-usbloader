@@ -23,7 +23,7 @@ ENV APP_NAME="NS-USBloader" \
     GROUP_ID=0 
 
 # Maximize only the main/initial window.
-RUN \
+# RUN \
     # sed-patch 's/<application type="normal">/<application type="normal" title="NS-USBloader v5.2">/' \
     # sed-patch 's/<application type="normal">/<application type="normal" title="xterm">/' \
-        /etc/xdg/openbox/rc.xml
+        # /etc/xdg/openbox/rc.xml
